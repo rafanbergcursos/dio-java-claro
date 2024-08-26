@@ -1,13 +1,13 @@
 package iPhone.iPod;
 
 public class iPod {
-    public interface Play {
-        public void play();
+    public interface Tocar {
+        public void tocar();
     }
-    public interface Pause {
+    public interface Pausar {
         public void pause();
     }
-    public interface Proxima {
-        public void proxima();
+    public interface SelecionarMusica {
+        public void selecionarMusica();
     }
 }

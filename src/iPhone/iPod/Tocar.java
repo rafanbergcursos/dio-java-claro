@@ -1,7 +1,7 @@
 package iPhone.iPod;
 import java.util.Random;
 
-public class Play implements iPod.Play {
+public class Tocar implements iPod.Tocar {
     public static String musicaAleatoria(String[] musica) {
         Random random = new Random();
         int indiceAleatorio = random.nextInt(musica.length);
@@ -21,7 +21,7 @@ public class Play implements iPod.Play {
         "Garota Nacional - Skank"
     };
     @Override
-    public void play() {
+    public void tocar() {
        System.out.println("Tocando música: " + musicaAleatoria(musicas));
     }
 }

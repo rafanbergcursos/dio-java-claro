@@ -4,7 +4,7 @@ import iPhone.Telefone.Telefone;
 import iPhone.iPod.iPod;
 
 public class TelaDeApps
-        implements Telefone.ligar, Telefone.atender, Telefone.correioDeVoz, iPod.Pause, iPod.Play, iPod.Proxima {
+        implements Telefone.ligar, Telefone.atender, Telefone.correioDeVoz, iPod.Pausar, iPod.Tocar, iPod.SelecionarMusica {
 
     @Override
     public void ligando() {
@@ -23,11 +23,11 @@ public class TelaDeApps
     }
 
     @Override
-    public void play() {
+    public void tocar() {
     }
 
     @Override
-    public void proxima() {
+    public void selecionarMusica() {
     }
 
 }

@@ -1,6 +1,6 @@
 package iPhone.iPod;
 
-public class Pause implements iPod.Pause {
+public class Pausar implements iPod.Pausar {
 
     @Override
     public void pause() {

@@ -3,8 +3,8 @@ package iPhone;
 import iPhone.Telefone.Ligar;
 import iPhone.Telefone.Atender;
 import iPhone.Telefone.CorreioDeVoz;
-import iPhone.iPod.Pause;
-import iPhone.iPod.Play;
+import iPhone.iPod.Pausar;
+import iPhone.iPod.Tocar;
 import iPhone.iPod.Proxima;
 import iPhone.Safari.AtualizarPagina;
 import iPhone.Safari.ExibirPagina;
@@ -43,8 +43,8 @@ public class iPhone {
             // AtualizarPagina atualizarPagina = new AtualizarPagina();
             // atualizarPagina.atualizarPagina();
 
-            NovaAba novaAba= new NovaAba();
-            novaAba.novaAba();
+            // NovaAba novaAba= new NovaAba();
+            // novaAba.novaAba();
         }
     }
 }
