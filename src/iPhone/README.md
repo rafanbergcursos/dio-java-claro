@@ -14,17 +14,18 @@ classDiagram
     }
 
     class NavegadorInternet {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        +ExibirPagina(String)
+        +AtualizarPagina(String)
+        +NovaAba(String)
     }
 
     class iPhone {
     }
     class Musicas {
-        ListaMusicas(String musicas)
+        -ListaMusicas(String musicas)
     }
      class Agenda {
-        Agenda(String contatos)
+        -Agenda(String contatos)
     }
 
     iPhone --> iPod

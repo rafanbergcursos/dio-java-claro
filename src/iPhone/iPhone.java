@@ -16,35 +16,35 @@ public class iPhone {
     public static void main(String[] args) {
 
         { // Telefone 
-            Ligar ligacao = new Ligar();
-            ligacao.ligando();
+            // Ligar ligacao = new Ligar();
+            // ligacao.ligando();
 
-            Atender atender = new Atender();
-            atender.atenderLigacao();
+            // Atender atender = new Atender();
+            // atender.atenderLigacao();
 
-            IniciarCorreioDeVoz novoCorreioDeVoz = new IniciarCorreioDeVoz();
-            novoCorreioDeVoz.iniciarCorreioDeVoz();
+            // IniciarCorreioDeVoz novoCorreioDeVoz = new IniciarCorreioDeVoz();
+            // novoCorreioDeVoz.iniciarCorreioDeVoz();
         }
         { // iPod - Reprodutor de audio.
-            Tocar play = new Tocar();
-            play.tocar();
+            // Tocar play = new Tocar();
+            // play.tocar();
 
-            Pausar pause = new Pausar();
-            pause.pause();
+            // Pausar pause = new Pausar();
+            // pause.pause();
 
-            Proxima proxima = new Proxima();
-            proxima.selecionarMusica();
+            // Proxima proxima = new Proxima();
+            // proxima.selecionarMusica();
 
         }
         { // Safari - Acesso a internet.
-            ExibirPagina exibirPagina = new ExibirPagina();
-            exibirPagina.exibirPagina();
+            // ExibirPagina exibirPagina = new ExibirPagina();
+            // exibirPagina.exibirPagina();
 
-            AtualizarPagina atualizarPagina = new AtualizarPagina();
-            atualizarPagina.atualizarPagina();
+            // AtualizarPagina atualizarPagina = new AtualizarPagina();
+            // atualizarPagina.atualizarPagina();
 
-            NovaAba novaAba= new NovaAba();
-            novaAba.novaAba();
+            // NovaAba novaAba= new NovaAba();
+            // novaAba.novaAba();
         }
     }
 }
