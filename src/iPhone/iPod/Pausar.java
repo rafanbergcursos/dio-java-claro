@@ -4,7 +4,7 @@ public class Pausar implements iPod.Pausar {
 
     @Override
     public void pause() {
-       System.out.println("Pause");
+       System.out.println("Pausa");
     }
     
 }

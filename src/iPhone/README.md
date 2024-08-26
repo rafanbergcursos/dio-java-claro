@@ -1,13 +1,16 @@
 ```mermaid
 classDiagram
-    class ReprodutorMusical {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+
+    class iPod {
+        +Tocar(String ListaMusicas.musicaAleatoria())
+        +Pausar(String)
+        +Proxima()
     }
 
     class AparelhoTelefonico {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        +Ligar(String numeroTelefone)
+        +atenderLigacao(String Agenda.agendaContatos())
+        +iniciarCorreioDeVoz(String ListaMusicas.musicaAleatoria())
     }
 
     class NavegadorInternet {
@@ -17,8 +20,17 @@ classDiagram
 
     class iPhone {
     }
+    class Musicas {
+        ListaMusicas(String musicas)
+    }
+     class Agenda {
+        Agenda(String contatos)
+    }
 
-    iPhone --> ReprodutorMusical
+    iPhone --> iPod
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
+    iPod <-- Musicas
+    AparelhoTelefonico <-- Agenda
+
 ```

@@ -9,8 +9,8 @@ public class Ligar implements Telefone.ligar {
     public void ligando() {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("Digite o numero de telefone que quer ligar:");
-        int numeroTelefone = scanner.nextInt();
-        System.out.println("Chamando o numero:" + numeroTelefone);
+        String numeroTelefone = scanner.next();
+        System.out.println("Chamando o numero: " + numeroTelefone);
         scanner.close();
     }
 

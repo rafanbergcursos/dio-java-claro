@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class ExibirPagina implements Safari.ExibirPagina {
-
+    
     @Override
     public void exibirPagina() {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);

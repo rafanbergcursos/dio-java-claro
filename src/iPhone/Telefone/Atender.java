@@ -4,7 +4,7 @@ public class Atender implements Telefone.atender {
 
     @Override
     public void atenderLigacao() {
-        String contato = "José";
+        String contato = Agenda.agendaContatos();
         System.out.println("Atendendo ligação de: " + contato);   
     }
    

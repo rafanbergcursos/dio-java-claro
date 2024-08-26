@@ -1,6 +1,6 @@
 package iPhone.Telefone;
 
-public class CorreioDeVoz implements Telefone.correioDeVoz {
+public class IniciarCorreioDeVoz implements Telefone.correioDeVoz {
 
     @Override
     public void iniciarCorreioDeVoz() {
